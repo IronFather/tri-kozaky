@@ -94,9 +94,9 @@ img {
 
 /* base common */
 .body {
-    background: var(-main-bg-cl);
+    background: rgb(221, 221, 221);
     color: var(--main-cl);
-    font-family: var(--main-font), sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -216,7 +216,6 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../tri-kozaky/img/kozaky-lyst-sultanu.jpg), linear-gradient(to right, #C4C4C4, #C4C4C4);
 }
 
 @media screen and (min-width: 1200px) {
@@ -225,31 +224,5 @@ img {
     padding-bottom: 200px;
     max-width: 1600px;
     height: 600px;
-}
-}
-
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-.hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../tri-kozaky/img/kozaky-lyst-sultanu.jpg), linear-gradient(to right, #C4C4C4, #C4C4C4);
-}
-}
-@media screen and (min-width: 768px) {
-.hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../tri-kozaky/img/kozaky-lyst-sultanu.jpg), linear-gradient(to right, #C4C4C4, #C4C4C4);
-}
-}
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
-.hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../tri-kozaky/img/kozaky-lyst-sultanu.jpg), linear-gradient(to right, #C4C4C4, #C4C4C4);
-}
-}
-@media screen and (min-width: 1200px) {
-.hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../tri-kozaky/img/kozaky-lyst-sultanu.jpg), linear-gradient(to right, #C4C4C4, #C4C4C4);
-}
-}
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-.hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../tri-kozaky/img/kozaky-lyst-sultanu.jpg), linear-gradient(to right, #C4C4C4, #C4C4C4);
 }
 }
